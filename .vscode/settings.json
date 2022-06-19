@@ -1,0 +1,4 @@
+{
+  "eslint.trace.server": "off",
+  "emmet.triggerExpansionOnTab": true
+}

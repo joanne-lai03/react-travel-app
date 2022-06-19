@@ -1,6 +1,9 @@
 import React from 'react'
 import {BiSearch} from 'react-icons/bi'
 import {BsPerson} from 'react-icons/bs'
+import {HiOutlineMenuAlt4} from 'react-icons/hi'
+
+import './NavbarStyle.css'
 
 function Navbar() {
   return (
@@ -18,6 +21,9 @@ function Navbar() {
        <div className="nav-icons">
           <BiSearch className='icon'/>
           <BsPerson className='icon'/>
+       </div>
+       <div className="hamburger">
+          <HiOutlineMenuAlt4 className='icon' />
        </div>
     </div>
   )

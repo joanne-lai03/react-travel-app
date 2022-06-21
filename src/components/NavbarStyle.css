@@ -6,6 +6,8 @@
   align-items: center;
   padding: 0 1rem;
   z-index: 2;
+  position: absolute;
+  color: white;
 }
 
 .navbar-bg {
@@ -29,6 +31,11 @@ li {
   display: none;
 }
 
+.icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 940px) {
 
   .mobile-menu {
@@ -39,10 +46,13 @@ li {
     left: 0;
     position: absolute;
     justify-content: space-between;
-    /* align-items: center; */
-    /* color: rgba(255, 255, 255, 0.95); */
     background-color: whitesmoke;
     transition: 0.3s;
+    color: black;
+  }
+
+  .dark {
+    color: black;
   }
 
   .active {

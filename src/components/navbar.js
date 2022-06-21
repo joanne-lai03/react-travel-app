@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { BiSearch } from 'react-icons/bi'
 import { BsPerson } from 'react-icons/bs'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
+import { AiOutlineClose } from 'react-icons/ai'
 import { FaFacebook, FaInstagram, FaTwitter, FaPinterest, FaYoutube } from 'react-icons/fa'
 
 import './NavbarStyle.css'
@@ -15,7 +16,7 @@ function Navbar() {
 
   return (
     <div className={nav ? 'navbar navbar-bg' : 'navbar'}>
-       <div className="logo">
+       <div className={nav ? 'logo dark' : 'logo'}>
           <h2>PARADISE</h2>
        </div>
        <ul className="nav-menu">
@@ -30,7 +31,7 @@ function Navbar() {
           <BsPerson className="icon"/>
        </div>
        <div className="hamburger" onClick={handleNav}>
-          <HiOutlineMenuAlt4 className="icon" />
+          {!nav ? (<HiOutlineMenuAlt4 className="icon" />) : (<AiOutlineClose className="icon dark" />)}  
        </div>
 
        <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>

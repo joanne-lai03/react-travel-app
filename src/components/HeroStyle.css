@@ -56,5 +56,11 @@
 .form input[type=text] {
   border: transparent;
   background-color: transparent;
-  font-size: 20px;
+  /* width: 400px; */
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form input[type=text]:focus {
+  outline: none;
 }

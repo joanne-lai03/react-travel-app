@@ -2,7 +2,7 @@ import React from 'react'
 import './HeroStyle.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 
-import Video from '../assets/maldivesVideo.mp4'
+import Video from '../../assets/maldivesVideo.mp4'
 
 function Hero() {
   return (

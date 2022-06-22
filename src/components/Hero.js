@@ -13,7 +13,7 @@ function Hero() {
       <div className="overlay"></div>
       <div className="content">
         <h1>First Class Travel</h1>
-        <h2>Most Relaxing Locations Worldwide</h2>
+        <h2>Most Relaxing Resorts Worldwide</h2>
         <form className="form">
           <div>
             <input type ="text" placeholder="Search Destinations"/>

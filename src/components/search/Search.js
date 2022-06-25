@@ -39,15 +39,26 @@ function Search() {
             <div className="input-wrap">
               <label>Destination</label>
               <select>
-                <option value="1">Antigua</option>
-                <option value="2">Bahamas</option>
-                <option value="3">Barbados</option>
-                <option value="4">Bora Bora</option>
-                <option value="5">Dominican Republic</option>
-                <option value="6">Grenada</option>
-                <option value="7">Trinidad</option>
+                <option value="antigua">Antigua</option>
+                <option value="bahamas">Bahamas</option>
+                <option value="barbados">Barbados</option>
+                <option value="bora bora">Bora Bora</option>
+                <option value="dominican republic">Dominican Republic</option>
+                <option value="grenada">Grenada</option>
+                <option value="trinidad">Trinidad</option>
               </select>
             </div>
+            <div className="date">
+              <div className="input-wrap">
+                <label>Check-In</label>
+                <input type="date" placeholder="dd/mm/yyyy"/>
+              </div>
+              <div className="input-wrap">
+                <label>Check-Out</label>
+                <input type="date" placeholder="dd/mm/yyyy"/>
+              </div>
+            </div>
+            <button>Rates & Availability</button>
           </form>
         </div>
       </div>

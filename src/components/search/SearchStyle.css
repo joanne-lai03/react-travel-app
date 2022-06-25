@@ -38,13 +38,14 @@ button {
 .promo {
   width: 100%;
   margin: 0.4rem 0;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   border: 1px solid grey;
   text-align: center;
 }
 
 .promo h4 {
   font-size: 1.5rem;
+  color: #5651e5;
 }
 
 .promo .timer {
@@ -53,7 +54,66 @@ button {
 }
 
 .promo .offers {
-  background-color: rgb(94, 143, 228);
+  background-color: rgb(76, 79, 84);
   color: whitesmoke;
   padding: 0.4rem 0;
+}
+
+.search form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrap {
+  margin: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.search input, select {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.search .date {
+  display: flex;
+}
+
+.search button {
+  margin: 0.4rem;
+}
+
+@media screen and (max-width: 940px) {
+  /* changing grid to 1fr to stack on mobile device */
+  .search .container {
+    grid-template-columns: 1fr;
+  }
+  
+  .search-col-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box h3 {
+    margin-top: 1.5rem;
+  }
+
+  .search .right {
+    max-width: 100%;
+  }
+
+  .search form {
+    width: 100%;
+  }
+
+  .search .date {
+    flex-direction: column;
+  }
+
 }

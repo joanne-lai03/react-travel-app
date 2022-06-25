@@ -31,10 +31,24 @@ function Search() {
         </div>
         <div className="right">
           <div className="promo">
-            <h4 className='save'>GET AN ADDITIONAL 10% OFF</h4>
+            <h4 className="save">GET AN ADDITIONAL 10% OFF</h4>
             <p className="timer">12 HOURS LEFT</p>
             <p className="offers">VIEW ALL CURRENT OFFERS</p>
           </div>
+          <form>
+            <div className="input-wrap">
+              <label>Destination</label>
+              <select>
+                <option value="1">Antigua</option>
+                <option value="2">Bahamas</option>
+                <option value="3">Barbados</option>
+                <option value="4">Bora Bora</option>
+                <option value="5">Dominican Republic</option>
+                <option value="6">Grenada</option>
+                <option value="7">Trinidad</option>
+              </select>
+            </div>
+          </form>
         </div>
       </div>
     </div>

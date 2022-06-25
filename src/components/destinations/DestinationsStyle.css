@@ -4,6 +4,10 @@
   padding: 4rem 0;
 }
 
+.container h1 {
+  font-size: 2.5rem;;
+}
+
 .destinations h1 {
   padding: 1rem;
 }

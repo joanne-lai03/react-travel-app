@@ -21,3 +21,39 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.search .box {
+  display: flex;
+  max-width: 310px;
+  align-items: center;
+  margin: auto;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promo {
+  width: 100%;
+  margin: 0.4rem 0;
+  margin-bottom: 5rem;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+.promo h4 {
+  font-size: 1.5rem;
+}
+
+.promo .timer {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.promo .offers {
+  background-color: rgb(94, 143, 228);
+  color: whitesmoke;
+  padding: 0.4rem 0;
+}

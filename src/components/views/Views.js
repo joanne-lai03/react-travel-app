@@ -13,7 +13,12 @@ import ViewsImg from '../ViewsImg/ViewsImg'
 function Views() {
   return (
     <div className="views">
+      <ViewsImg bgImg={BoraBora2} text="Antigua" />
       <ViewsImg bgImg={Barbados} text="Barbados" />
+      <ViewsImg bgImg={BoraBora} text="Bora Bora" />
+      <ViewsImg bgImg={Island} text="Trinidad" />
+      <ViewsImg bgImg={Island2} text="Grenada" />
+      <ViewsImg bgImg={Bahamas} text="Bahamas" />
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Destinations from "./components/destinations/Destinations";
 import Search from "./components/search/Search";
 import Views from "./components/views/Views"
 import ImgCarousel from "./components/carousel/ImgCarousel";
-
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Search />
       <Views />
       <ImgCarousel />
+      <Footer />
     </div>
   );
 }

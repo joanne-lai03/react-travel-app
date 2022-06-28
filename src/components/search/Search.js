@@ -23,7 +23,7 @@ function Search() {
           </div>
           <div className="box">
             <div>
-              <h3>NO ONE INCLUDES MORE</h3>
+              <h3>NO ONE INCLUDES MORE.</h3>
               <p>ACCOMMODATION, FOOD AND LEISURE ALL COVERED IN BOOKING</p>
               <button>View Packages</button>
             </div>

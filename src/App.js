@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Destinations from "./components/destinations/Destinations";
 import Search from "./components/search/Search";
 import Views from "./components/views/Views"
+import ImgCarousel from "./components/carousel/ImgCarousel";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Destinations />
       <Search />
       <Views />
+      <ImgCarousel />
     </div>
   );
 }

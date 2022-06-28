@@ -43,6 +43,11 @@
   padding: 0.5rem;
 }
 
+.footer .icon:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
 @media screen and (max-width: 940px) {
   .footer ul {
     flex-direction: column;

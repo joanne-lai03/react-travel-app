@@ -11,14 +11,14 @@
   padding-bottom: 0.5rem;
 }
 
-.top, .bottom {
+.footer .top, .bottom {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
 
-.social {
+.footer .social {
   display: flex;
   justify-content: space-between;
   width: 200px;
@@ -26,11 +26,11 @@
   padding-bottom: 0.5rem;
 }
 
-.icon {
+.footer .icon {
   color: #709dff;
 }
 
-.left, .right {
+.footer .left, .right {
   display: flex;
   align-items: center;
 }

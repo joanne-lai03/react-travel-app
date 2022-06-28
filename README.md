@@ -1,6 +1,6 @@
 # Front-end luxury travel app using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+App designed to be responsive across all device sizes
 
 ## Available Scripts
 

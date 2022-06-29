@@ -11,7 +11,7 @@ import Grenada from '../../assets/island2.jpg'
 
 function ImgCarousel() {
   return (
-    <div className="container">
+    <div name="carousel" className="container">
       <Carousel className='carousel' showArrows={true} autoPlay={true} infiniteLoop={true}>
           <div>
               <img src={Barbados} alt="Barbados" />

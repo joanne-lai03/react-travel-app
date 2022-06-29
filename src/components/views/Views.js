@@ -12,7 +12,7 @@ import ViewsImg from '../ViewsImg/ViewsImg'
 
 function Views() {
   return (
-    <div className="views">
+    <div name="travel" className="views">
       <div className="container">
       <ViewsImg bgImg={Antigua} text="Antigua" />
       <ViewsImg bgImg={BoraBora} text="Bora Bora" />

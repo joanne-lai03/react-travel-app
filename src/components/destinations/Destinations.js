@@ -9,7 +9,7 @@ import Bahamas from '../../assets/bahamas.jpg'
 
 function Destinations() {
   return (
-    <div className='destinations'>
+    <div name="destinations" className="destinations">
       <div className="container">
         <h1>All-Inclusive Resorts</h1>
         <h3>On Caribbean's Best Beaches</h3>
